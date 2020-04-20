@@ -64,11 +64,11 @@ class Dog
     
   end 
   
-  def self.new_from_db
+  def self.new_from_db(row)
     attributes_hash = {
-      id: = row[0],
-      name: = roww[1],
-      breed: = row[2]
+      :id = row[0],
+      :name = roww[1],
+      :breed = row[2]
     }
   end 
   
