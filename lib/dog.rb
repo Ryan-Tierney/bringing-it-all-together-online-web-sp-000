@@ -44,6 +44,7 @@ class Dog
    dog = self.new(hash_of_attributes)
    dog.save 
    
+   dog 
   end 
   
   def self.new_from_db
