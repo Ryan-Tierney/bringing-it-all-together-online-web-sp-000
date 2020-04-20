@@ -40,7 +40,8 @@ class Dog
     self
   end 
   
-  def self.create(name:, breed:) 
+  def self.create(hash_of_attributes)
+    self.new 
   end 
   
   def self.new_from_db
