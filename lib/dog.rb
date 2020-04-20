@@ -48,7 +48,8 @@ class Dog
   end 
   
   def self.new_from_db
-    
+    sql = <<-SQL
+    SELECT * FROM dogs WHERE id = ?,:
   end 
   
   def self.find_by_name 
