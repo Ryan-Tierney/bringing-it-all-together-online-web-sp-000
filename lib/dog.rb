@@ -65,6 +65,7 @@ class Dog
   end 
   
   def self.new_from_db
+    attributes_hash = 
   end 
   
   def update 
